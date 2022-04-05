@@ -1,0 +1,35 @@
+/* --------------- Common -------------------- */
+
+html {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+	min-height: 100vh;
+    height: 100%;
+}
+
+a {
+    color: #ce6425;
+}
+
+.block {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.block-desc {
+    position: relative;
+    width: 360px;
+    height: 360px;
+}
+
+.block-link {
+    position: absolute;
+    top: 54px;
+    right: 43px;
+}
+
+/* --------------- /Common ------------------- */
