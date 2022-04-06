@@ -26,10 +26,32 @@ a {
     height: 360px;
 }
 
+@keyframes block-s-anim {
+    from {background-position: 0 0;}
+	to {background-position: -104px 0;}
+}
+
+.block-s {
+    display: block;
+
+    position: absolute;
+    top: 18px;
+    left: 145px;
+
+    width: 52px;
+    height: 39px;
+
+    background-image: url('s.png');
+    background-size: auto 100%;
+    background-position: 0 0;
+
+    animation: block-s-anim steps(2) .6s infinite;
+}
+
 .block-link {
     position: absolute;
-    top: 54px;
-    right: 43px;
+    top: 50px;
+    right: 32px;
 }
 
 /* --------------- /Common ------------------- */
